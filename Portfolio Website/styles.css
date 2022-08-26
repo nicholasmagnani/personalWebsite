@@ -1,0 +1,215 @@
+.linkedin{
+    flex-basis: auto;
+}
+.linkedin img{
+    width: 5%;
+    height: 5%
+}
+.medium{
+    flex-basis: auto;
+    
+}
+.medium img{
+    width: 5%;
+    height: 5%;
+}
+.twitter{
+    flex-basis: auto;
+}
+.twitter img{
+    width: 5%;
+    height: 5%
+}
+.resume{
+    flex-basis: auto;
+}
+.resume img{
+    width: 5%;
+    height: 5%
+}
+.github{
+    flex-basis: auto;
+}
+.github img{
+    width: 5%;
+    height: 5%
+}
+
+.headerLinks{
+    flex: 1;
+    text-align: left;
+    transform: translateX(40%);
+    list-style-type: none;
+}
+.headerLinks ul li{
+    list-style: none;
+    display: inline;
+    margin: 5% 0;
+    text-align: center;
+}
+.headerLinks ul li a{
+    text-decoration: none;
+}
+.intro {
+    width: 38%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    font-family: Inter;
+    font-weight: Light Italic;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    
+  }
+.airtag {
+  flex-basis: auto;
+}
+.airtag img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    overflow: hidden;
+    align-self: right;
+  }
+
+.buttonAbout {
+  width: 34%;
+  height: 12%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 48%;
+  left: 3%;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.buttonGoals {
+  width: 44%;
+  height: 12%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 61%;
+  left: 3%;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.buttonBlog {
+  width: 42%;
+  height: 12%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 74%;
+  left: 3%;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.buttonContact {
+  width: 35%;
+  height: 12%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 87%;
+  left: 3%;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.aboutMeDesc {
+  width: 30%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 50%;
+  left: 11%;
+  font-family: Inter;
+  font-weight: Light;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.goalsDesc {
+    width: 531px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 63%;
+    left: 11%;
+    font-family: Inter;
+    font-weight: Light;
+    font-size: 64px;
+    opacity: 1;
+    text-align: left;
+}
+.blogDesc {
+  width: 43%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 76%;
+  left: 11%;
+  font-family: Inter;
+  font-weight: Light;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.contactDesc {
+  width: 481px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 89%;
+  left: 11%;
+  font-family: Inter;
+  font-weight: Light;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.pfp {
+  width: 139px; 
+  height: 139px;
+  background: url("/images/me.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.learnMore {
+  width: 668px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 348px;
+  left: 44px;
+  font-family: Inter;
+  font-weight: Light Italic;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
